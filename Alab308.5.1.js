@@ -19,29 +19,30 @@ console.log(average(numbers));
 
 
 // Take an array of strings and return the longest string.
-let array3 = [
+let array2 = [
   "I now know the basics of HTML",
   "I now know the basics of CSS",
   "I now know the basics of Javascript",
   "I am currently learning the basics of DOM"
 ];
 
-function maxstr(array3) {
-  array3.sort((a, b) => b.length - a.length);
-  return array3[0];
+function maxstr(array2) {
+  array2.sort((a, b) => b.length - a.length);
+  return array2[0];
 }
-console.log(maxstr(array3));
+console.log(maxstr(array2));
 
 
 
 // Take an array of strings, and a number and return an array of the strings that are longer than the given number.
-// I could not complete this.
-const arr = ['HTML', 'CSS', 'Javascript', 'DOM'];
-let strLengthOver5 = arr.filter(myFunction);
-function myFunction(value, array) {
-  return value > 5;
+let array3 = ['HTML', 'CSS', 'Javascript', 'DOM'];
+
+function StrMoreThan5(array3, maxLength) {
+    return array3.filter((str) => str.length > maxLength);
+
 }
-console.log(myFunction(5, ['HTML', 'CSS', 'Javascript', 'DOM']));
+console.log(StrMoreThan5(array3, 5));
+  
 
 
 // Take a number, n, and print every number between 1 and n without using loops. Use recursion.//
