@@ -35,29 +35,13 @@ console.log(maxstr(array3));
 
 
 // Take an array of strings, and a number and return an array of the strings that are longer than the given number.
-/*const arr = ['HTML', 'CSS', 'Javascript', 'DOM'];
+// I could not complete this.
+const arr = ['HTML', 'CSS', 'Javascript', 'DOM'];
 let strLengthOver5 = arr.filter(myFunction);
 function myFunction(value, array) {
   return value > 5;
 }
-
 console.log(myFunction(5, ['HTML', 'CSS', 'Javascript', 'DOM']));
-
-
- /*const course = ["HTML", "CSS", "Javascript", "DOM"];
- let bootcamp = course.length;
-
-for (let i = 0; i < fLen; i++) {}*/
-
-
-// This code counts from 25 to 0. 
-/*function num1(n1) {
-  if (n1 < 0) return;
-  console.log(n1);
-  num1(n1 - 1);
-}
-num1(25);*/
-
 
 
 // Take a number, n, and print every number between 1 and n without using loops. Use recursion.//
